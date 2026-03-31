@@ -6,7 +6,6 @@ import json
 import urllib.request as urlreq
 
 load_dotenv()
-os.environ["GEMINI_API_KEY"] = "AIzaSyDn22Z41q7uGRV1r_5fYNQBUzciW5bLuog"
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
