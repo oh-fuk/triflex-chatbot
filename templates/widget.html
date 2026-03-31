@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget Preview</title>
+    <style>
+        body {
+            margin: 0;
+            background: #f0f0f0;
+            font-family: sans-serif;
+            min-height: 100vh;
+        }
+
+        .preview-label {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .preview-label a {
+            color: #4f46e5;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="preview-label">
+        Widget Preview — <a href="/admin">← Back to Admin</a>
+    </div>
+
+    <script>
+        window.ChatbotConfig = { apiUrl: "" }; // same origin
+    </script>
+    <script src="/static/widget.js"></script>
+</body>
+
+</html>
