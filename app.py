@@ -9,7 +9,7 @@ load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
-CORS(app, origins="*")
+CORS(app, origins=["https://triflexmedia.com", "https://www.triflexmedia.com", "https://saadcheema6242.pythonanywhere.com", "http://127.0.0.1:8080", "http://localhost:8080"])
 
 CONFIG_FILE = "config.json"
 
